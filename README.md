@@ -16,7 +16,7 @@ characteristics. By combining unsupervised learning with survey-aware design, th
 methodological rigor in health data mining. It delivers a scalable, reproducible approach for precision
 diabetes epidemiology in complex survey settings.
 ## Repository Structure
-📂 Repository Structure
+
 ├── data/                  # Example or synthetic NHANES-like data
 ├── scripts/               # Core scripts for weighted ensemble clustering
 ├── notebooks/             # Jupyter notebooks for analysis and figures
@@ -84,4 +84,4 @@ Due to NHANES data use restrictions, raw data are not redistributed here.
 - To ensure reproducibility:
 Standard errors were estimated via Taylor series linearization using strata and PSU design variables.
 
-All analyses used survey-weighted procedures in Python and R.
+All analyses used survey-weighted procedures in Python.
