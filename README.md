@@ -85,3 +85,20 @@ Due to NHANES data use restrictions, raw data are not redistributed here.
 Standard errors were estimated via Taylor series linearization using strata and PSU design variables.
 
 All analyses used survey-weighted procedures in Python.
+
+## Citation
+
+If you use this work, please cite:
+
+A. Odebode (2025).
+Survey-Weighted Ensemble Clustering Reveals Population-Level Diabetes Subgroups.
+In Proceedings of the [Conference Name], 2025.
+
+@inproceedings{Odebode2025SurveyWeighted,
+  author    = {Afees Odebode},
+  title     = {Survey-Weighted Ensemble Clustering Reveals Population-Level Diabetes Subgroups},
+  year      = {2025},
+  booktitle = {Proceedings of the Conference on Machine Learning and Health Data},
+}
+
+## Appendix
