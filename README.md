@@ -39,7 +39,7 @@ Run the full pipeline:
 
 python scripts/run_weighted_ensemble.py
 Or explore the interactive workflow:
-jupyter notebook notebooks/SurveyWeightedClustering.ipynb
+jupyter notebook notebooks/NhanesAnalysis.ipynb
 
 
 ## The pipeline:
@@ -80,12 +80,12 @@ Findings remained significant after Bonferroni correction
 
 ## Reproducibility & Data Availability
 
-Due to NHANES data use restrictions, raw data are not redistributed here.
-- To ensure reproducibility:
-Standard errors were estimated via Taylor series linearization using strata and PSU design variables.
-
-All analyses used survey-weighted procedures in Python.
-
+The datasets analyzed in this study are publicly available from the National Health and
+Nutrition Examination Survey (NHANES) repository maintained by the U.S. Centers for
+Disease Control and Prevention (CDC) at \url{https://www.cdc.gov/nchs/nhanes/}. All
+preprocessing scripts, clustering procedures, statistical analyses, and figure-generation
+code used in this study are publicly available at:
+url{https://github.com/Aphees/t2dmSurveyWeightedEnsemble}.
 ## Citation
 
 If you use this work, please cite:
